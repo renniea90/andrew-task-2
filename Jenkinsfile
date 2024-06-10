@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                bat 'script.bat'
+                bat 'test.bat'
             }
         }
     }
